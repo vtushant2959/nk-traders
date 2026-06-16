@@ -1,0 +1,351 @@
+export const COMPANY = {
+  name: 'NK Traders',
+  tagline: 'Global Scrap & Metal Trading',
+  phone: '+91-9599275718',
+  whatsapp: '919599275718',
+  email: 'nktraders7661@gmail.com',
+  address: 'Jeewan Nagar, Near Peer Baba, Gaunchi, Faridabad, Haryana - 121005',
+  gst: '06ANKPN4871H1ZO',
+  msme: 'UDYAM-HR-03-0041920',
+  founded: '2005',
+  website: 'https://nktraders.in',
+}
+
+export const NAV_LINKS = [
+  { label: 'Home', href: '/' },
+  { label: 'About', href: '/about' },
+  {
+    label: 'Services',
+    href: '/services',
+    children: [
+      { label: 'Industrial Scrap Buying', href: '/services#industrial' },
+      { label: 'Metal Scrap Trading', href: '/services#metal' },
+      { label: 'Copper Scrap', href: '/services#copper' },
+      { label: 'Aluminium Scrap', href: '/services#aluminium' },
+      { label: 'Plant Dismantling', href: '/services#plant' },
+      { label: 'E-Waste Procurement', href: '/services#ewaste' },
+    ],
+  },
+  { label: 'Industries', href: '/industries' },
+  { label: 'Case Studies', href: '/case-studies' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Contact', href: '/contact' },
+]
+
+export const SERVICES = [
+  {
+    id: 'industrial',
+    icon: '🏭',
+    title: 'Industrial Scrap Buyers',
+    desc: 'Complete industrial scrap procurement from manufacturing plants, factories & production units across India.',
+    benefits: ['Competitive Pricing', 'Same Day Assessment', 'Bulk Volume Handling'],
+    color: '#0066ff',
+    image: 'https://plus.unsplash.com/premium_photo-1673431020386-b6a5f9858b47?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'metal',
+    icon: '⚙️',
+    title: 'Metal Scrap Buyers',
+    desc: 'We buy all grades of ferrous and non-ferrous metal scrap at best market rates with transparent weighing.',
+    benefits: ['Market Rate Pricing', 'Certified Weighbridge', 'Instant Payment'],
+    color: '#00c6ff',
+    image: 'https://images.unsplash.com/photo-1722695510527-cc033e43be1b?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'warehouse',
+    icon: '🏪',
+    title: 'Warehouse Scrap Buyers',
+    desc: 'Complete warehouse clearance — obsolete inventory, packaging scrap, machinery and structural steel.',
+    benefits: ['Full Clearance Service', 'Documentation Support', 'Pan India Coverage'],
+    color: '#0052cc',
+    image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'factory',
+    icon: '🔧',
+    title: 'Factory Scrap Buyers',
+    desc: 'End-to-end factory scrap disposal with certified recycling, documentation, and zero-landfill commitment.',
+    benefits: ['Zero Landfill Policy', 'ESG Documentation', 'Scheduled Pickups'],
+    color: '#3d8eff',
+    image: 'https://images.unsplash.com/photo-1617303331806-3d6b58e03241?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'copper',
+    icon: '🔶',
+    title: 'Copper Scrap Buyers',
+    desc: 'Premium rates for copper wire, cable, radiators, pipes, busbars and all grades of copper scrap.',
+    benefits: ['Highest Market Rates', 'Purity-Based Pricing', 'Immediate Payment'],
+    color: '#b87333',
+    image: 'https://images.unsplash.com/photo-1640602344715-a6ef5c281037?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'aluminium',
+    icon: '🔘',
+    title: 'Aluminium Scrap Buyers',
+    desc: 'All types of aluminium scrap including extrusions, sheets, castings, foil and UBC cans.',
+    benefits: ['Grade-Based Pricing', 'Export Quality', 'Technical Assessment'],
+    color: '#848789',
+    image: 'https://plus.unsplash.com/premium_photo-1672088819404-996a7686baa9?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'brass',
+    icon: '🟡',
+    title: 'Brass Scrap Buyers',
+    desc: 'Best prices for yellow brass, red brass, plumbing fixtures, electrical fittings and industrial brass scrap.',
+    benefits: ['International Pricing', 'Lab Testing Available', 'Bulk Discounts'],
+    color: '#CFB53B',
+    image: 'https://images.unsplash.com/photo-1606337321936-02d1b1a4d5ef?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'iron',
+    icon: '🔩',
+    title: 'Iron Scrap Buyers',
+    desc: 'Heavy melting scrap, cast iron, HMS 1&2, shredded scrap, and all grades of iron for melt & export.',
+    benefits: ['HMS Grade Expertise', 'Export Documentation', 'Large Volume Capacity'],
+    color: '#6b7280',
+    image: 'https://images.unsplash.com/photo-1723365316514-8509dea457f2?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'steel',
+    icon: '🏗️',
+    title: 'Steel Scrap Buyers',
+    desc: 'Structural steel, SS scrap, tool steel, spring steel, shredded and all grades of steel scrap.',
+    benefits: ['Grade Classification', 'Mill Quality', 'Volume Purchasing'],
+    color: '#94a3b8',
+    image: 'https://images.unsplash.com/photo-1624027492684-327af1fb7559?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'plant',
+    icon: '🏚️',
+    title: 'Plant Dismantling',
+    desc: 'Complete industrial plant dismantling — electrical, mechanical, structural, with safety compliance.',
+    benefits: ['Safety Certified Teams', 'Full Regulatory Compliance', 'Asset Recovery Optimization'],
+    color: '#7c3aed',
+    image: 'https://images.unsplash.com/photo-1616551569669-b60598758c4f?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'asset',
+    icon: '💼',
+    title: 'Asset Recovery',
+    desc: 'Maximize value from surplus machinery, equipment, tools, and industrial assets through strategic recovery.',
+    benefits: ['Valuation Reports', 'Auction & Direct Sale', 'Global Buyer Network'],
+    color: '#059669',
+    image: 'https://plus.unsplash.com/premium_photo-1681426730828-bfee2d13861d?fm=jpg&q=80&w=400&fit=crop',
+  },
+  {
+    id: 'ewaste',
+    icon: '💻',
+    title: 'E-Waste Procurement',
+    desc: 'CPCB-compliant e-waste collection for servers, computers, UPS, batteries, and electronic equipment.',
+    benefits: ['CPCB Certified', 'Data Destruction', 'R2 Certified Process'],
+    color: '#dc2626',
+    image: 'https://images.unsplash.com/photo-1612965110667-4175024b0dcc?fm=jpg&q=80&w=400&fit=crop',
+  },
+]
+
+export const CATEGORIES = [
+  { name: 'Copper Scrap', desc: 'Wire, cable, radiators, pipes', color: '#b87333', value: '₹580-620/kg', image: 'https://images.unsplash.com/photo-1640602344715-a6ef5c281037?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Aluminium Scrap', desc: 'Extrusions, sheets, castings', color: '#848789', value: '₹140-160/kg', image: 'https://plus.unsplash.com/premium_photo-1672088819404-996a7686baa9?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Brass Scrap', desc: 'Yellow brass, fittings, valves', color: '#CFB53B', value: '₹310-340/kg', image: 'https://images.unsplash.com/photo-1606337321936-02d1b1a4d5ef?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Steel Scrap', desc: 'HMS, SS, structural steel', color: '#94a3b8', value: '₹28-35/kg', image: 'https://images.unsplash.com/photo-1617303331806-3d6b58e03241?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Iron Scrap', desc: 'Cast iron, heavy melting', color: '#6b7280', value: '₹22-28/kg', image: 'https://images.unsplash.com/photo-1722695510527-cc033e43be1b?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Machinery Scrap', desc: 'Motors, compressors, equipment', color: '#0066ff', value: 'Price on quote', image: 'https://images.unsplash.com/photo-1624027492684-327af1fb7559?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Warehouse Scrap', desc: 'Racking, shelving, packaging', color: '#7c3aed', value: 'Price on quote', image: 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Factory Scrap', desc: 'Production waste, offcuts', color: '#059669', value: 'Price on quote', image: 'https://plus.unsplash.com/premium_photo-1673431020386-b6a5f9858b47?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Electrical Scrap', desc: 'Transformers, switchgear', color: '#dc2626', value: 'Price on quote', image: 'https://images.unsplash.com/photo-1717667745934-53091623e8ee?fm=jpg&q=80&w=400&fit=crop' },
+  { name: 'Industrial Equipment', desc: 'Plant, tooling, fixtures', color: '#d97706', value: 'Price on quote', image: 'https://plus.unsplash.com/premium_photo-1681426730828-bfee2d13861d?fm=jpg&q=80&w=400&fit=crop' },
+]
+
+export const STATS = [
+  { value: 18, suffix: '+', label: 'Years of Experience', icon: '📅' },
+  { value: 500, suffix: '+', label: 'Happy Clients', icon: '🤝' },
+  { value: 50000, suffix: '+', label: 'MT Processed Monthly', icon: '⚖️' },
+  { value: 25, suffix: '+', label: 'Cities Covered', icon: '🗺️' },
+  { value: 15, suffix: '+', label: 'Countries Exported', icon: '🌏' },
+  { value: 99, suffix: '%', label: 'On-Time Payments', icon: '💰' },
+]
+
+export const INDUSTRIES = [
+  { name: 'Automotive', icon: '🚗', desc: 'OEM plants, Tier 1 & 2 suppliers', count: '80+ clients' },
+  { name: 'Construction', icon: '🏗️', desc: 'Builders, contractors, developers', count: '60+ clients' },
+  { name: 'Manufacturing', icon: '🏭', desc: 'General & heavy manufacturing', count: '150+ clients' },
+  { name: 'Warehousing', icon: '🏪', desc: '3PL, e-commerce, distribution', count: '45+ clients' },
+  { name: 'FMCG', icon: '🧴', desc: 'Consumer goods manufacturers', count: '30+ clients' },
+  { name: 'Engineering', icon: '⚙️', desc: 'Capital goods & precision engineering', count: '70+ clients' },
+  { name: 'Pharmaceutical', icon: '💊', desc: 'Pharma plants & biotech facilities', count: '25+ clients' },
+  { name: 'Power Plants', icon: '⚡', desc: 'Thermal, solar, wind energy', count: '20+ clients' },
+  { name: 'Textile', icon: '🧵', desc: 'Spinning mills & garment factories', count: '35+ clients' },
+  { name: 'Infrastructure', icon: '🛤️', desc: 'Roads, bridges, metro projects', count: '40+ clients' },
+]
+
+export const PROCESS_STEPS = [
+  { step: '01', title: 'Contact Us', desc: 'Call, WhatsApp or fill the form. Our team responds within 60 minutes.', icon: '📞' },
+  { step: '02', title: 'Site Inspection', desc: 'Our expert visits your facility for material assessment and quantity estimation.', icon: '🔍' },
+  { step: '03', title: 'Best Price Quote', desc: 'We provide transparent market-linked pricing with no hidden deductions.', icon: '💹' },
+  { step: '04', title: 'Pickup & Collection', desc: 'Our logistics team handles complete loading, transport and documentation.', icon: '🚛' },
+  { step: '05', title: 'Weighing & Sorting', desc: 'Certified weighbridge measurement and grade-wise sorting at our facility.', icon: '⚖️' },
+  { step: '06', title: 'Instant Payment', desc: 'Payment via NEFT/RTGS within 24 hours. No delays, no excuses.', icon: '💰' },
+]
+
+export const TESTIMONIALS = [
+  {
+    name: 'Rajesh Sharma',
+    role: 'VP Operations',
+    company: 'Bharat Steel Pvt. Ltd.',
+    city: 'Gurgaon',
+    text: 'NK Traders has been our scrap partner for 6 years. Their pricing is always competitive and payments are never delayed. Highly professional team.',
+    rating: 5,
+  },
+  {
+    name: 'Priya Mehta',
+    role: 'Procurement Head',
+    company: 'Techno Warehouse Solutions',
+    city: 'Mumbai',
+    text: 'When we were clearing a 50,000 sq ft warehouse, NK Traders handled everything end-to-end. From assessment to final payment in just 3 days.',
+    rating: 5,
+  },
+  {
+    name: 'Suresh Agarwal',
+    role: 'Managing Director',
+    company: 'Agarwal Textiles Mills',
+    city: 'Ahmedabad',
+    text: 'Best copper scrap prices in the market. NK Traders\' technical team accurately assessed our cable scrap grades which got us 8% better rates.',
+    rating: 5,
+  },
+  {
+    name: 'Amit Joshi',
+    role: 'Facility Manager',
+    company: 'Pharma Chem Industries',
+    city: 'Pune',
+    text: 'Plant dismantling done with zero safety incidents. CPCB compliance documentation was perfect. Will definitely work with NK Traders again.',
+    rating: 5,
+  },
+  {
+    name: 'Neha Gupta',
+    role: 'CFO',
+    company: 'LogiPark India',
+    city: 'Noida',
+    text: 'NK Traders helped us recover ₹45 lakhs from obsolete warehouse equipment we thought was worthless. Outstanding asset recovery expertise.',
+    rating: 5,
+  },
+]
+
+export const CASE_STUDIES = [
+  {
+    title: 'Multinational Warehouse Clearance',
+    category: 'Warehouse Scrap',
+    location: 'Gurgaon, Haryana',
+    duration: '5 Days',
+    value: '₹2.8 Cr',
+    before: '180,000 sq ft of mixed industrial scrap, machinery, racking systems and packaging material. Client needed complete clearance for facility handover.',
+    after: '100% clearance achieved in 5 days. 2,400 MT of material processed. Client received highest market value with ESG documentation for annual report.',
+    tags: ['Warehouse', 'Bulk Scrap', 'ESG Docs'],
+    image: 'https://images.unsplash.com/photo-1723365316514-8509dea457f2?fm=jpg&q=80&w=600&fit=crop',
+  },
+  {
+    title: 'Automotive Plant Dismantling',
+    category: 'Plant Dismantling',
+    location: 'Pune, Maharashtra',
+    duration: '21 Days',
+    value: '₹8.5 Cr',
+    before: 'Tier-1 auto ancillary plant shutdown with 500+ machines, 3 production lines, complete electrical infrastructure and structural steel.',
+    after: 'Zero-incident dismantling. 8,200 MT material recovered. 23 machines refurbished and resold. Full regulatory compliance. 18% above client expectations.',
+    tags: ['Plant Dismantling', 'Asset Recovery', 'Automotive'],
+    image: 'https://images.unsplash.com/photo-1722695694560-f452b0919d3a?fm=jpg&q=80&w=600&fit=crop',
+  },
+  {
+    title: 'E-Waste Collection Drive',
+    category: 'E-Waste',
+    location: 'Delhi NCR',
+    duration: '30 Days',
+    value: '₹65 L',
+    before: 'FMCG major with 15 office locations needed CPCB-compliant disposal of 5 years of accumulated IT equipment, servers and UPS batteries.',
+    after: '12.8 MT of e-waste responsibly recycled. Data destruction certified. CPCB certificates issued for all locations. Zero compliance risk.',
+    tags: ['E-Waste', 'CPCB', 'FMCG'],
+    image: 'https://images.unsplash.com/photo-1601198389904-8740006d4b20?fm=jpg&q=80&w=600&fit=crop',
+  },
+]
+
+export const FAQS = [
+  {
+    q: 'What types of scrap does NK Traders buy?',
+    a: 'NK Traders buys all types of ferrous and non-ferrous metal scrap including copper, aluminium, brass, iron, steel, along with machinery scrap, e-waste, factory scrap, warehouse scrap, and industrial equipment across India.',
+  },
+  {
+    q: 'Do you provide doorstep pickup service?',
+    a: 'Yes, we offer pan India doorstep pickup. Our logistics team handles complete transportation from your facility. We operate across 25+ cities and can arrange pickup within 24-48 hours of assessment.',
+  },
+  {
+    q: 'How is the payment made and when?',
+    a: 'Payment is made via NEFT/RTGS/Cheque within 24 hours of material weighing and verification. We maintain 99%+ on-time payment record with all our clients.',
+  },
+  {
+    q: 'Do you provide any documentation for scrap sold?',
+    a: 'Yes. We provide GST invoices, weighbridge slips, material receipts, and for e-waste: CPCB certificates and data destruction certificates. All documents are legally compliant.',
+  },
+  {
+    q: 'What is the minimum quantity you purchase?',
+    a: 'We buy from 100 kg to 10,000+ MT. There is no strict minimum for high-value materials like copper and brass. For bulk lots, we offer premium pricing.',
+  },
+  {
+    q: 'Can NK Traders handle plant dismantling projects?',
+    a: 'Yes. We have specialized teams for complete plant dismantling including electrical, mechanical, structural, and civil dismantling. All projects are handled with full safety protocols and regulatory compliance.',
+  },
+  {
+    q: 'Do you export scrap metal internationally?',
+    a: 'Yes. NK Traders exports to UAE, Singapore, Malaysia, China, Europe, and other markets. We handle all export documentation, customs clearance, and logistics.',
+  },
+  {
+    q: 'How do you determine the price of scrap?',
+    a: 'Scrap pricing is based on current LME (London Metal Exchange) rates, domestic market conditions, material grade, purity, and quantity. We provide transparent pricing with no hidden deductions.',
+  },
+]
+
+export const LOCATIONS = [
+  'Delhi', 'Gurgaon', 'Noida', 'Faridabad', 'Ghaziabad',
+  'Mumbai', 'Pune', 'Ahmedabad', 'Jaipur', 'Chennai',
+  'Hyderabad', 'Bangalore', 'Kolkata',
+]
+
+export const BLOG_POSTS = [
+  {
+    slug: 'copper-scrap-prices-india-2025',
+    title: 'Copper Scrap Prices in India 2025: Complete Buyer\'s Guide',
+    category: 'Metal Scrap',
+    date: 'June 10, 2025',
+    readTime: '6 min',
+    excerpt: 'Comprehensive guide to copper scrap pricing in India, LME rates, grade classification, and how to get the best price for your copper scrap.',
+    tags: ['Copper', 'Pricing', 'LME'],
+    image: 'https://images.unsplash.com/photo-1518994255497-c5f17690567f?fm=jpg&q=80&w=600&fit=crop',
+  },
+  {
+    slug: 'warehouse-clearance-guide',
+    title: 'Complete Warehouse Clearance Guide: Maximize Your Scrap Value',
+    category: 'Warehouse Liquidation',
+    date: 'May 28, 2025',
+    readTime: '8 min',
+    excerpt: 'Step-by-step guide to planning and executing a warehouse clearance. How to categorize materials, find the right buyer, and maximize recovery value.',
+    tags: ['Warehouse', 'Clearance', 'Guide'],
+    image: 'https://images.unsplash.com/photo-1516297702292-c919b6adea0c?fm=jpg&q=80&w=600&fit=crop',
+  },
+  {
+    slug: 'plant-dismantling-india',
+    title: 'Industrial Plant Dismantling in India: Regulatory Requirements 2025',
+    category: 'Factory Clearance',
+    date: 'May 15, 2025',
+    readTime: '10 min',
+    excerpt: 'Everything you need to know about regulatory compliance, pollution board approvals, and safety standards for industrial plant dismantling in India.',
+    tags: ['Plant Dismantling', 'Compliance', 'Safety'],
+    image: 'https://images.unsplash.com/photo-1722695694560-f452b0919d3a?fm=jpg&q=80&w=600&fit=crop',
+  },
+  {
+    slug: 'scrap-metal-circular-economy',
+    title: 'How Scrap Metal Trading Drives India\'s Circular Economy',
+    category: 'Circular Economy',
+    date: 'April 30, 2025',
+    readTime: '7 min',
+    excerpt: 'The critical role of organized scrap metal trading in reducing carbon emissions, conserving natural resources and building sustainable industrial supply chains.',
+    tags: ['Sustainability', 'Circular Economy', 'ESG'],
+    image: 'https://images.unsplash.com/photo-1561503412-852800622772?fm=jpg&q=80&w=600&fit=crop',
+  },
+]
